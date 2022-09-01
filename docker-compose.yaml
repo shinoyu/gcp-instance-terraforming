@@ -4,8 +4,6 @@ services:
   terraform:
     image: hashicorp/terraform:1.0.8
     working_dir: /src
-    environment:
-      - AWS_PROFILE
     volumes:
       - ~/.aws:/root/.aws:ro
       - ./vars:/vars:ro
