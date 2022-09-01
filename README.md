@@ -1,0 +1,3 @@
+```sh
+./terraform apply
+```
